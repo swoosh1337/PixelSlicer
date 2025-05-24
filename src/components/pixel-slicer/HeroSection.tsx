@@ -63,12 +63,14 @@ export const HeroSection: React.FC = () => {
         >
           Start Slicing Now
         </Button>
-        <Button 
-          variant="outline"
-          className="border-pixelSlicer-darkText text-pixelSlicer-darkText hover:bg-pixelSlicer-darkText hover:text-pixelSlicer-background font-pixelHeading px-8 py-6 text-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
-        >
-          Try PixelMint <ArrowRight className="ml-2" size={18} />
-        </Button>
+        <a href="https://www.pixelmint.art" target="_blank" rel="noopener noreferrer">
+          <Button 
+            variant="outline"
+            className="border-pixelSlicer-darkText text-pixelSlicer-darkText hover:bg-pixelSlicer-darkText hover:text-pixelSlicer-background font-pixelHeading px-8 py-6 text-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+          >
+            Try PixelMint <ArrowRight className="ml-2" size={18} />
+          </Button>
+        </a>
       </motion.div>
       
       <motion.div 

@@ -52,11 +52,17 @@ export const CallToAction: React.FC = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          <Button 
-            className="bg-pixelSlicer-darkText hover:bg-pixelSlicer-darkText/80 text-pixelSlicer-background font-pixelHeading px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+          <a 
+            href="https://www.pixelmint.art"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Generate with PixelMint <ArrowRight className="ml-2" size={18} />
-          </Button>
+            <Button 
+              className="bg-pixelSlicer-darkText hover:bg-pixelSlicer-darkText/80 text-pixelSlicer-background font-pixelHeading px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              Generate with PixelMint <ArrowRight className="ml-2" size={18} />
+            </Button>
+          </a>
         </motion.div>
       </motion.div>
     </section>
